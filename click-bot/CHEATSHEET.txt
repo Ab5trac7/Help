@@ -1,0 +1,20 @@
+CLICK BOT - EVERY COMMAND YOU CAN USE IN A RECIPE
+(one command per line, lines starting with # are ignored)
+
+open Notes                 bring an app to the front (use its exact name)
+wait 2                     pause 2 seconds (0.5 works too)
+
+click 500 300              click at position x=500, y=300
+click image tick.png       find the picture images/tick.png on screen and click it
+doubleclick 500 300        double-click (also works with "image ...")
+rightclick 500 300         right-click (also works with "image ...")
+move 500 300               just move the mouse there (also works with "image ...")
+
+type hello world           type some text
+press enter                press one key: enter, tab, esc, space, delete,
+                           up, down, left, right, f1 ... f12
+hotkey command f           press keys together, e.g. command f, command a,
+                           command shift n
+scroll -5                  scroll down 5 (positive numbers scroll up)
+
+EMERGENCY STOP: slam the mouse into the TOP-LEFT corner of the screen.

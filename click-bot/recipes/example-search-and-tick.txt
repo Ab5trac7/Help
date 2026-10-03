@@ -1,0 +1,17 @@
+# EXAMPLE RECIPE - search for a word and tick the result.
+# Lines starting with # are notes; the bot ignores them.
+# Replace the numbers with your own (use capture.command to find them).
+
+open Notes
+wait 2
+
+# 1. Click in the search bar
+click 500 80
+
+# 2. Type the word and confirm
+type groceries
+press enter
+wait 1
+
+# 3. Tick the item (a picture is safer than numbers - see README)
+click 420 210
