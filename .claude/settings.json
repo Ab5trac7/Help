@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "claude-flightdeck": {
+      "source": {
+        "source": "github",
+        "repo": "scasella/claude-flightdeck"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "flightdeck@claude-flightdeck": true
+  }
+}
